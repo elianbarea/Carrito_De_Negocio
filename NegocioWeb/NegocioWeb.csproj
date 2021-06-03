@@ -123,6 +123,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="ERROR.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -200,6 +201,13 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
+    <Compile Include="ERROR.aspx.cs">
+      <DependentUpon>ERROR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ERROR.aspx.designer.cs">
+      <DependentUpon>ERROR.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -214,6 +222,19 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio\Dominio.csproj">
+      <Project>{a7d6ae23-afe0-467d-9f9c-31444340a0b1}</Project>
+      <Name>Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocio\Negocio.csproj">
+      <Project>{00b24adc-276a-4937-96de-ad7ef507fc0b}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
