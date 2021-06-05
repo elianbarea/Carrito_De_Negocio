@@ -17,7 +17,7 @@
 
 
             <div class="col-4">
-            <a class="nav-link fs-7" style="color:black;" href="DETALLES">
+            <a class="nav-link fs-7" style="color:black;" href="DETALLES.aspx?id=<% =item.id %>">
                 <div class="card mt-4">
                     <img src="<% = item.Imagen %>" class="card-img-top" alt="PLAY4">
                     <div class="card-body">

@@ -23,6 +23,8 @@ namespace NegocioWeb
                 arti = negocio.listar();
                 //dgvProducto.DataSource = negocio.listar();
                 //dgvProducto.DataBind(); listar grid
+
+                Session.Add("ListadoProducto", arti);
             }
             catch (Exception)
             {
