@@ -27,6 +27,12 @@
                     <div class="card-body" style="height: 500px">
                         <p><% = articulo.Descripcion %></p>
                         
+                            <button class="btn-danger"> 
+                                <a class="nav-link fs-7" style="color:black;" href="Carrito.aspx?id=<% =articulo.id %>">
+                                 Agregar a carrito</a>
+                                 </button>
+                       
+                        
                     </div>
                 </div>
             </div>

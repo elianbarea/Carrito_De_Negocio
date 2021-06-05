@@ -12,7 +12,7 @@ namespace NegocioWeb
     
     public partial class DETALLES : System.Web.UI.Page
     {   
-        public List<Articulo> das;
+        
         public Articulo articulo;
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -21,6 +21,7 @@ namespace NegocioWeb
 
             List<Articulo> listado = (List < Articulo >) Session["ListadoProducto"];
             articulo = listado.Find(x => x.id == id);
+            
 
         }
     }

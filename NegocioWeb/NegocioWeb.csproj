@@ -105,6 +105,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Carrito.aspx" />
     <Content Include="DETALLES.aspx" />
     <Content Include="Productos.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -163,6 +164,13 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Carrito.aspx.cs">
+      <DependentUpon>Carrito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Carrito.aspx.designer.cs">
+      <DependentUpon>Carrito.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DETALLES.aspx.cs">
       <DependentUpon>DETALLES.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
