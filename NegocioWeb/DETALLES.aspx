@@ -9,7 +9,7 @@
         <!--CONTENEDOR DE PRODUCTOS -->
         <div class="row align-items-center">
 
-
+            
             <div class="col-7">
                 <div class="card mt-4">
                     <img src="<% = articulo.Imagen  %>" style="width: auto" class="card-img-top" alt="">

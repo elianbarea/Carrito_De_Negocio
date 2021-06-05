@@ -16,12 +16,22 @@ namespace NegocioWeb
         public Articulo articulo;
         protected void Page_Load(object sender, EventArgs e)
         {
+            try
+            {
             localNegocio negocio = new localNegocio();
             int id = int.Parse (Request.QueryString["id"]);
 
             List<Articulo> listado = (List < Articulo >) Session["ListadoProducto"];
             articulo = listado.Find(x => x.id == id);
             
+            }
+            catch (Exception)
+            {
+
+                Response.Redirect("ERROR-aspx");
+            }
+
+
 
         }
     }

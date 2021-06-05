@@ -1,6 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Carrito.aspx.cs" Inherits="NegocioWeb.Carrito" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
+
+       <div class="container">
+        <!--CONTENEDOR DE PRODUCTOS -->
+        <div class="row align-items-center">
                <%foreach (Dominio.Articulo item in carrito)
                 {%>
 
@@ -11,15 +15,25 @@
                 <div class="card mt-4">
                     <img src="<% = item.Imagen %>" class="card-img-top" alt="PLAY4">
                     <div class="card-body">
-                        <h5><% = item.Nombre %></h5>
-                        <p class="card-text"><% = item.Descripcion %></p>
-                        
+                        <h5 class="text-center"><% = item.Nombre %></h5>
+                        <a href="Carrito.aspx?ELIMINAR=<% = item.id.ToString() %>" class="btn btn-primary">Eliminar</a>
                     </div>
                 </div>
                 </a>
             </div>
 
+
+
+
+
             <% } %>
 
+            </div>
+           </div>
+<%--    <table>
+        <tr>
+            <td><a href="Carrito.aspx?ELIMINAR=<% = item.id.ToString() %>" class="btn btn-primary">Eliminar</a></td>
+        </tr>
+    </table>--%>
     
 </asp:Content>

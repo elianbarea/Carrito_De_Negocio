@@ -25,6 +25,13 @@ namespace NegocioWeb
             carrito.Add(listadoOriginal.Find(x => x.id.ToString() == Request.QueryString["id"]));
 }
 
+            var Elimina = Request.QueryString["ELIMINAR"];
+            if (Elimina != null)
+            {
+                Articulo QuitarArt = carrito.Find(x => x.id == int.Parse(Elimina));
+                carrito.Remove(QuitarArt);
+            }
+
             Session.Add("CarritoProducto", carrito);
 
 
