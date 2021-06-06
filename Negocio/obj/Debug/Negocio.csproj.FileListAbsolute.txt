@@ -16,3 +16,12 @@ C:\TODO\ESTUDIOS\UtN\2º ÑO\PROG 3\Practicas WindowsForm\TPwinform\Negocio\bin\
 C:\TODO\ESTUDIOS\UtN\2º ÑO\PROG 3\Practicas WindowsForm\TPwinform\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\TODO\ESTUDIOS\UtN\2º ÑO\PROG 3\Practicas WindowsForm\TPwinform\Negocio\obj\Debug\Negocio.dll
 C:\TODO\ESTUDIOS\UtN\2º ÑO\PROG 3\Practicas WindowsForm\TPwinform\Negocio\obj\Debug\Negocio.pdb
+C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Negocio\bin\Debug\Negocio.dll
+C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Negocio\bin\Debug\Negocio.pdb
+C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Negocio\bin\Debug\Dominio.dll
+C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Negocio\bin\Debug\Dominio.pdb
+C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Negocio\obj\Debug\Negocio.dll
+C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Negocio\obj\Debug\Negocio.pdb

@@ -16,8 +16,12 @@
                     <img src="<% = item.Imagen %>" class="card-img-top" alt="PLAY4">
                     <div class="card-body">
                         <h5 class="text-center"><% = item.Nombre %></h5>
+                        <p style="align-content:center">
+                             <a href="COMPRADO.aspx" class="btn btn-primary">Comprar</a>
+
                         <a href="Carrito.aspx?ELIMINAR=<% = item.id.ToString() %>" class="btn btn-primary">Eliminar</a>
-                    </div>
+                    </p>
+                            </div>
                 </div>
                 </a>
             </div>

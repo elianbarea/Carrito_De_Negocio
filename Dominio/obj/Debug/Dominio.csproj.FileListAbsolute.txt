@@ -27,3 +27,9 @@ C:\Users\USUARIO\Desktop\TPwinform\tpWinform\Dominio\obj\Debug\Dominio.csprojAss
 C:\Users\USUARIO\Desktop\TPwinform\tpWinform\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\Desktop\TPwinform\tpWinform\Dominio\obj\Debug\Dominio.dll
 C:\Users\USUARIO\Desktop\TPwinform\tpWinform\Dominio\obj\Debug\Dominio.pdb
+C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Dominio\bin\Debug\Dominio.dll
+C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Dominio\bin\Debug\Dominio.pdb
+C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Dominio\obj\Debug\Dominio.dll
+C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Dominio\obj\Debug\Dominio.pdb

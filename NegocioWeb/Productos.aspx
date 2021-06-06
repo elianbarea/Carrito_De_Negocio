@@ -22,7 +22,9 @@
                     <img src="<% = item.Imagen %>" class="card-img-top" alt="PLAY4">
                     <div class="card-body">
                         <h5><% = item.Nombre %></h5>
+   
                         <p class="card-text"><% = item.Descripcion %></p>
+                        <p class="card-text"><h3> $<% = item.Precio %></h3> </p>
                     </div>
                 </div>
                 </a>
