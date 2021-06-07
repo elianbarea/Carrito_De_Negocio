@@ -33,3 +33,9 @@ C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Dominio\obj\Debug\Dominio.cspr
 C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Dominio\obj\Debug\Dominio.dll
 C:\Users\USUARIO\Desktop\tpweb\Carrito_De_Negocio\Dominio\obj\Debug\Dominio.pdb
+C:\TODO\ESTUDIOS\UtN\2º ÑO\PROG 3\Practicas WindowsForm\TPcarrito\Carrito_De_Negocio\Dominio\bin\Debug\Dominio.dll
+C:\TODO\ESTUDIOS\UtN\2º ÑO\PROG 3\Practicas WindowsForm\TPcarrito\Carrito_De_Negocio\Dominio\bin\Debug\Dominio.pdb
+C:\TODO\ESTUDIOS\UtN\2º ÑO\PROG 3\Practicas WindowsForm\TPcarrito\Carrito_De_Negocio\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\TODO\ESTUDIOS\UtN\2º ÑO\PROG 3\Practicas WindowsForm\TPcarrito\Carrito_De_Negocio\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\TODO\ESTUDIOS\UtN\2º ÑO\PROG 3\Practicas WindowsForm\TPcarrito\Carrito_De_Negocio\Dominio\obj\Debug\Dominio.dll
+C:\TODO\ESTUDIOS\UtN\2º ÑO\PROG 3\Practicas WindowsForm\TPcarrito\Carrito_De_Negocio\Dominio\obj\Debug\Dominio.pdb

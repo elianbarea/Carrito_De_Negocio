@@ -29,7 +29,7 @@
                         <p><% = articulo.Descripcion %></p>
 
                         <p> Marca <%= articulo.Marca %></p>
-                        <p> <h2><%= articulo.Precio %></h2></p>
+                        <p> <h2>$<%= articulo.Precio %></h2></p>
                         
                             <button class="btn-danger"> 
                                 <a class="nav-link fs-7" style="color:black;" href="Carrito.aspx?id=<% =articulo.id %>">
