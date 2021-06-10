@@ -19,10 +19,14 @@ namespace NegocioWeb
             if (carrito == null)
                 carrito = new List<Articulo>();
 
-            if(Request.QueryString["id"] != null) { 
+            if(Request.QueryString["id"] != null) {
 
-            List<Articulo> listadoOriginal = (List<Articulo>)Session["ListadoProducto"];
-            carrito.Add(listadoOriginal.Find(x => x.id.ToString() == Request.QueryString["id"]));
+                if (carrito.Find(x => x.id.ToString() == Request.QueryString["id"])==null)
+                {
+                    List<Articulo> listadoOriginal = (List<Articulo>)Session["ListadoProducto"];
+                    carrito.Add(listadoOriginal.Find(x => x.id.ToString() == Request.QueryString["id"]));
+                }
+
 }
 
             var Elimina = Request.QueryString["ELIMINAR"];
